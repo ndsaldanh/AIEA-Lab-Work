@@ -1,0 +1,80 @@
+%Results from Prolog
+1 ?- [knowledgeBase].       
+true.
+
+2 ?- is_capital('Lima', 'Libya').
+false.
+
+3 ?- is_capital('Lima', 'Peru'). 
+true.
+
+4 ?- city_continent('Manila', 'Asia').
+true.
+
+5 ?- city_continent('Manila', 'Europe').
+false.
+
+6 ?- is_in_country('New York', 'Egypt').  
+false.
+
+7 ?- is_in_country('New York', 'United States of America').
+
+true.
+
+8 ?- is_in_country('Los Angeles', 'United States of America
+').
+true.
+
+9 ?- is_in_country('Barcelona', 'United States of America')
+.  
+false.
+
+10 ?- country_continent('Libya', 'Africa').
+true.
+
+11 ?- country_continent('Libya', 'Australia').
+false.
+
+12 ?- is_capital('Melbourne', 'Australia').   
+false.
+
+13 ?- is_in_country('Melbourne', 'Australia').
+true.
+
+%Results from Prolog Interpreter
+Query: is_capital('Lima', 'Libya')
+Result: false | Expected: false
+----------------------------------------
+Query: is_capital('Lima', 'Peru')
+Result: true | Expected: true
+----------------------------------------
+Query: city_continent('Manila', 'Asia')
+Result: true | Expected: true
+----------------------------------------
+Query: city_continent('Manila', 'Europe')
+Result: false | Expected: false
+----------------------------------------
+Query: is_in_country('New York', 'Egypt')
+Result: false | Expected: false
+----------------------------------------
+Query: is_in_country('New York', 'United States of America')
+Result: true | Expected: true
+----------------------------------------
+Query: is_in_country('Los Angeles', 'United States of America')
+Result: true | Expected: true
+----------------------------------------
+Query: is_in_country('Barcelona', 'United States of America')
+Result: false | Expected: false
+----------------------------------------
+Query: country_continent('Libya', 'Africa')
+Result: true | Expected: true
+----------------------------------------
+Query: country_continent('Libya', 'Australia')
+Result: false | Expected: false
+----------------------------------------
+Query: is_capital('Melbourne', 'Australia')
+Result: false | Expected: false
+----------------------------------------
+Query: is_in_country('Melbourne', 'Australia')
+Result: true | Expected: true
+----------------------------------------
