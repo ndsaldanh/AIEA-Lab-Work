@@ -19,7 +19,7 @@
   },
   {
     "nl_question": "Is Lisbon in South America?",
-    "symbolic_query": "is_in_country('Lisbon','South America')",
+    "symbolic_query": "city_continent('Lisbon', 'South America')",
     "symbolic_result": false,
     "nl_answer": "No"
   },
