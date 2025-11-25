@@ -1,0 +1,32 @@
+[
+  {
+    "nl_question": "Is Melbourne in Australia?",
+    "symbolic_query": "is_in_country('Melbourne','Australia')",
+    "symbolic_result": true,
+    "nl_answer": "Yes"
+  },
+  {
+    "nl_question": "Is Madrid the capital of Spain?",
+    "symbolic_query": "is_capital('Madrid','Spain')",
+    "symbolic_result": true,
+    "nl_answer": "Yes"
+  },
+  {
+    "nl_question": "Is Cuzco in South America?",
+    "symbolic_query": "city_continent('Cuzco', 'South America')",
+    "symbolic_result": true,
+    "nl_answer": "Yes"
+  },
+  {
+    "nl_question": "Is Lisbon in South America?",
+    "symbolic_query": "is_in_country('Lisbon','South America')",
+    "symbolic_result": false,
+    "nl_answer": "No"
+  },
+  {
+    "nl_question": "Is Egypt in Africa?",
+    "symbolic_query": "country_continent('Egypt','Africa')",
+    "symbolic_result": true,
+    "nl_answer": "Yes"
+  }
+]
